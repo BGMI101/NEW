@@ -2,7 +2,7 @@ import base64
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 
-KEY = base64.b64decode("lZpoYZxLkJ6gcwy4eQWIfkvjWy98B0qdGsapqsnqc8E=")
+KEY = base64.b64decode("7423815010:AAGUBTuIASMWyxB9BqGf30c6ABKGKuYNLh8")
 
 def aes_decrypt(data, key):
     raw_data = base64.b64decode(data)
